@@ -19,7 +19,7 @@ if any of the mines get uncovered.
 
 ### Database
 
-We have used a Database named PlayerDB in our project. It contains a table named players. The
+We have used a Database named `PlayerDB` in our project. It contains a table named `players`. The
 schema diagram for this table is players
 `(name varchar, password varchar);`
 
@@ -33,8 +33,8 @@ calculate and display the max-score of each player and the maximum score until n
 ### Directions to Play
 
 * Left click on a grid block opens the block.
-* Right click on a grid block allows to mark a block as flagged (confirmed mine underneath); flagged
-blocks can be marked with question marks (doubt about presence of mine), and question marked
+* Right click on a grid block allows to mark a block as `flagged` (confirmed mine underneath); flagged
+blocks can be marked with `question marks` (doubt about presence of mine), and question marked
 blocks can be un-marked as well.
 * First block never contains a mine underneath; this reduces the pain of guessing even the first
 block.
